@@ -2,6 +2,11 @@ package by.java_online.module_3.chars;
 
 import java.util.Arrays;
 
+/*
+3. Strings and basics of text processing. Работа со строкой как с массивом символов, задание 1.
+Преобразованить элементы массива из camelCase в snake_case
+ */
+
 public class Task1 {
 
     private static String[] toSnakeCase(String[] array) {
@@ -27,7 +32,8 @@ public class Task1 {
     public static void main(String[] args) {
 
         String[] array = {"epamSystems", "javaOnline", "unitThreeStringAsCharArray"};
-        System.out.println(Arrays.toString(toSnakeCase(array)));
+        toSnakeCase(array);
+        System.out.println(Arrays.toString(array));
 
     }
 }
